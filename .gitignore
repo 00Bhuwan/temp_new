@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#large csv file so put here
+Notebook/data/dailyclimate.csv
+
 # Distribution / packaging
 .Python
 build/
