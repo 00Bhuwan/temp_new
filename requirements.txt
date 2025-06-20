@@ -1,3 +1,8 @@
 setuptools
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+
 
 #-e.

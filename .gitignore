@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 #large csv file so put here
-Notebook/data/dailyclimate.csv
+Notebook/data/
 
 # Distribution / packaging
 .Python
