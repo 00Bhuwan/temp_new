@@ -8,6 +8,7 @@ __pycache__/
 
 #large csv file so put here
 Notebook/data/
+artifacts/
 
 # Distribution / packaging
 .Python
