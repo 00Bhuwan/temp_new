@@ -7,8 +7,8 @@ from src.logger import logging
 from dataclasses import dataclass
 
 from sklearn.model_selection import train_test_split
-# from src.components.data_transformer import DataTransformationConfig
-# from src.components.data_transformer import DataTransformation
+from src.components.data_transformer import DataTransformationConfig
+from src.components.data_transformer import DataTransformation
 # from src.components.model_trainer import ModelTrainerConfig
 # from src.components.model_trainer import ModelTrainer
 
@@ -56,12 +56,11 @@ class DataInjection:
 
 if __name__ == "__main__":
     obj = DataInjection()
-    obj.initialize_data_injection()
-    # train_data, test_data =
+    train_data, test_data = obj.initialize_data_injection()
 
-    # data_transformation = DataTransformation()
-    # train_arr, test_arr, _ = data_transformation.initialize_data_transformation(
-    #     train_data, test_data)
+    data_transformation = DataTransformation()
+    # train_arr, test_arr, _ =
+    data_transformation.initialize_data_transformation(train_data, test_data)
 
     # model_trainer = ModelTrainer()
     # print(model_trainer.initialize_model_trainer(train_arr, test_arr))
